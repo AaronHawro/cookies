@@ -15,21 +15,29 @@ body{
     right: 0px;
     width: 99%;
 }
+.text{
+    margin-left: 5px;
+}
 .choice{
     display: flex;
 }
 .accept{
     margin-right: 20px;
+    margin-left: 5px;
+    user-select: none;
+}
+.deny{
+    user-select: none;
 }
 .accept:hover, .deny:hover, .close:hover{
     color: rgb(200, 200, 200);
     transition: 0.5s;
-    user-select: none;
 }
 .close{
     position: absolute;
     top: 10px;
     right: 10px;
+    user-select: none;
 }
 .hide{
     display: none;
